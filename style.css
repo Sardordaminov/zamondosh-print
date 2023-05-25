@@ -18,6 +18,11 @@ nav{
     justify-content: space-around;
     align-items: center;
 }
+.logo{
+    width: 200px;
+    height: 45px;
+    cursor: pointer;
+}
 nav ul {
     display: flex;
 }
