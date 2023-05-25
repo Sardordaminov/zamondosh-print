@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 * {
   margin: 0;
@@ -5,6 +6,14 @@
   box-sizing: border-box;
   list-style: none;
   font-family: "DM Sans", sans-serif;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+>>>>>>> 5039bc1d4a4fb2fc374536be54456c1d9764390c
 }
 header {
   width: 100vw;
@@ -51,9 +60,74 @@ nav ul li {
 }
 .translator button.eng{
     background-color: #fff;
+<<<<<<< HEAD
     border: 1px solid #3e40516e;
 }
 .translator button.ru{
     background-color: #3E4051;
     color: #fff;
 }
+=======
+    color: #4B4B4B;
+    border-right: 1px solid #4B4B4B;
+}
+/* About Us */
+
+.about-us{
+    height: 100vh;
+    width: 100%;
+    padding: 90px 0;
+    background: #ddd;
+  }
+  .pic{
+    height: auto;
+    width:  302px;
+  }
+  .about{
+    width: 1130px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .text{
+    width: 540px;
+  }
+  .text h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .text h5{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  span{
+    color: #4070f4;
+  }
+  .text p{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+  }
+  .data{
+    margin-top: 30px;
+  }
+  .hire{
+    font-size: 18px;
+    background: #4070f4;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+  }
+  .hire:hover{
+    background: #000;
+    border: 1px solid #4070f4;
+  }
+>>>>>>> 5039bc1d4a4fb2fc374536be54456c1d9764390c
