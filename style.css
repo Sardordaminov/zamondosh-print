@@ -61,6 +61,7 @@ nav ul li{
     width: 540px;
   }
   .text h2{
+    color: #022575;
     font-family: 'Poppins', sans-serif;
     font-size: 90px;
     font-weight: 600;
@@ -84,7 +85,7 @@ nav ul li{
   }
   .hire{
     font-size: 18px;
-    background: #4070f4;
+    background: #FF5100;
     color: #fff;
     text-decoration: none;
     border: none;
@@ -93,6 +94,5 @@ nav ul li{
     transition: 0.5s;
   }
   .hire:hover{
-    background: #000;
-    border: 1px solid #4070f4;
+    background: #FF5100;
   }
