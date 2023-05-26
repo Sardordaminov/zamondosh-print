@@ -55,11 +55,14 @@ nav ul li {
   color: #4b4b4b;
   border-right: 1px solid #4b4b4b;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 nav ul li:hover ,.social-link-buttons a:hover{
     opacity: 60%;
 }
+.nav.active ul li{
+  background-color: transparent;
+} 
 .social-link-buttons a{
     margin: 0 10px;
     transition: all 0.3s ease;
@@ -72,6 +75,10 @@ nav ul li:hover ,.social-link-buttons a:hover{
     font-size: 12px;
     border: transparent;
     cursor: pointer;
+    
+}
+.translator button:hover{
+  opacity: 60%;
 }
 .translator button.eng{
     background-color: #fff;
