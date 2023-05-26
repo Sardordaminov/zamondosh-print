@@ -29,7 +29,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   background-color: #f8f8f8;
-  transition: all .3s ease;
+  transition: all 0.2s ease;
 }
 .nav.active {
   background-color: #ffffffcc;
@@ -51,7 +51,7 @@ nav ul li {
   align-items: center;
   justify-content: center;
   padding: 5px 8px;
-  background-color: #f8f8f8;
+  background-color: transparent;
   color: #4b4b4b;
   border-right: 1px solid #4b4b4b;
   cursor: pointer;
@@ -60,12 +60,13 @@ nav ul li {
 nav ul li:hover ,.social-link-buttons a:hover{
     opacity: 60%;
 }
-.nav.active ul li{
-  background-color: transparent;
-} 
 .social-link-buttons a{
     margin: 0 10px;
     transition: all 0.3s ease;
+}
+.social-link-buttons a img{
+  width: 25px;
+  height: 25px;
 }
 .translator{
     display: flex;
@@ -75,7 +76,7 @@ nav ul li:hover ,.social-link-buttons a:hover{
     font-size: 12px;
     border: transparent;
     cursor: pointer;
-    
+    transition: opacity 0.2s ease;
 }
 .translator button:hover{
   opacity: 60%;
@@ -117,6 +118,10 @@ nav ul li:hover ,.social-link-buttons a:hover{
   font-size: 14px;
   margin: 10px;
   cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+.main-button .btn:hover{
+  opacity: 60%;
 }
 .main-button .btn.gray{
   background-color: #999;
