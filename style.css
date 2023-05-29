@@ -211,7 +211,6 @@ span {
     padding: 20px 35px;
     position: fixed;
     display: flex;
-<<<<<<< HEAD
     align-items: center;
     justify-content: space-around;
   }
@@ -229,9 +228,7 @@ span {
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 20px;
-=======
     align-items: flex-start;
->>>>>>> 4ecdf69343bfd1deb9118dce59f5e2523ebe1a9d
   }
   header nav ul {
     flex-direction: column;
@@ -244,7 +241,7 @@ span {
     border-right: none;
     border-left: 1px solid #4b4b4b;
   }
-<<<<<<< HEAD
+
   .data{
     margin-top: 30px;
   }
@@ -261,7 +258,7 @@ span {
   .hire:hover{
     background: #FF5100;
   }
-=======
+
   .social-link-buttons {
     display: flex;
     flex-direction: column;
@@ -272,4 +269,3 @@ span {
   }
 }
 /* hali navbar ohirigacha bitmadi */
->>>>>>> 4ecdf69343bfd1deb9118dce59f5e2523ebe1a9d
