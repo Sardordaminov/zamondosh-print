@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+  
+  @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -225,6 +226,24 @@ span {
   }
   .fa-bars.none{
     display: none;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .text{
+    width: 540px;
+  }
+  .text h2{
+    color: #022575;
+    font-family: 'Poppins', sans-serif;
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .text h5{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    align-items: flex-start;
   }
   header nav ul {
     flex-direction: column;
@@ -237,6 +256,22 @@ span {
     border-right: none;
     border-left: 1px solid #4b4b4b;
   }
+  .data{
+    margin-top: 30px;
+  }
+  .hire{
+    font-size: 18px;
+    background: #FF5100;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+  }
+  .hire:hover{
+    background: #FF5100;
+  }
   .social-link-buttons {
     display: flex;
     flex-direction: column;
@@ -246,4 +281,3 @@ span {
     background-color: transparent;
   }
 }
-/* hali navbar ohirigacha bitmadi */
