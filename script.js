@@ -1,6 +1,5 @@
 let navbar = document.querySelector('.nav')
-let open = document.querySelector(".fa-bars")
-let close = document.querySelector(".fa-xmark")
+let opener = document.querySelector(".fa-bars")
 
 window.addEventListener('scroll', () => {
     if (window.scrollY > 1) {
@@ -10,19 +9,10 @@ window.addEventListener('scroll', () => {
     }
 })
 
-open.addEventListener("click", () => {
-    if (1 > 0) {
-        navbar.classList.add('full')
-        open.classList.add("none")
-        close.classList.add('block')
-    }
-})
-close.addEventListener("click", () => {
-    if (1 > 0) {
+opener.addEventListener("click", () => {
+    if (navbar.classList.contains("full")) {
         navbar.classList.remove('full')
-        open.classList.remove("none")
-        close.classList.remove("block")
-        open.classList.add("block")
-        close.classList.add('none')
+    }else{
+        navbar.classList.add("full")
     }
 })
