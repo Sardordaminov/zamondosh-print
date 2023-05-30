@@ -12,7 +12,16 @@ window.addEventListener('scroll', () => {
 opener.addEventListener("click", () => {
     if (navbar.classList.contains("full")) {
         navbar.classList.remove('full')
-    }else{
+    } else {
         navbar.classList.add("full")
     }
 })
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
