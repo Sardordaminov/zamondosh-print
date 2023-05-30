@@ -1,5 +1,4 @@
-  
-  @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -148,7 +147,7 @@ nav ul li:hover,
 
 .about-us {
   width: 100%;
-  padding: 90px 0   ;
+  padding: 90px 0;
 }
 .pic {
   height: auto;
@@ -201,22 +200,22 @@ span {
   background: #000;
   border: 1px solid #4070f4;
 }
-.our-services{
- width: 100%;
- min-height: 80vh;
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- padding: 0 10px;
+.our-services {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
 }
-.services-cart{
+.services-cart {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   max-width: 80%;
 }
-.services-cart div{
+.services-cart div {
   width: 400px;
   height: 280px;
   display: flex;
@@ -226,32 +225,32 @@ span {
   margin: 15px 25px;
   padding: 20px 10px;
   text-align: center;
-  background-color: #3E4051;
+  background-color: #3e4051;
   color: #fff;
   position: relative;
 }
-.services-cart div img{
+.services-cart div img {
   width: 130px;
-  height: 150px; 
+  height: 150px;
   object-fit: contain;
 }
-.services-cart div:nth-child(5) img{
+.services-cart div:nth-child(5) img {
   width: 70%;
   height: 80%;
-  object-fit: cover; 
+  object-fit: cover;
   position: absolute;
 }
-.services-cart div h3{
+.services-cart div h3 {
   font-size: 20px;
   z-index: 10;
   padding: 15px 0px;
 }
-.services-cart div:nth-child(5) h3{
+.services-cart div:nth-child(5) h3 {
   padding-top: 150px;
 }
-.services-cart div p{
+.services-cart div p {
   font-size: 16px;
-  z-index: 10; 
+  z-index: 10;
   padding: 0 15px 30px;
 }
 
@@ -268,31 +267,31 @@ span {
     align-items: flex-start;
     overflow-y: hidden;
   }
-  nav.full{
+  nav.full {
     min-height: 300px;
   }
-  #open{
+  #open {
     display: block;
   }
-  .fa-bars.block{
+  .fa-bars.block {
     display: block;
   }
-  .fa-bars.none{
+  .fa-bars.none {
     display: none;
     align-items: center;
     justify-content: space-around;
   }
-  .text{
+  .text {
     width: 540px;
   }
-  .text h2{
+  .text h2 {
     color: #022575;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 90px;
     font-weight: 600;
     margin-bottom: 10px;
   }
-  .text h5{
+  .text h5 {
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 20px;
@@ -309,12 +308,12 @@ span {
     border-right: none;
     border-left: 1px solid #4b4b4b;
   }
-  .data{
+  .data {
     margin-top: 30px;
   }
-  .hire{
+  .hire {
     font-size: 18px;
-    background: #FF5100;
+    background: #ff5100;
     color: #fff;
     text-decoration: none;
     border: none;
@@ -322,8 +321,8 @@ span {
     border-radius: 6px;
     transition: 0.5s;
   }
-  .hire:hover{
-    background: #FF5100;
+  .hire:hover {
+    background: #ff5100;
   }
 
   .social-link-buttons {
@@ -334,31 +333,27 @@ span {
     top: 90px;
     background-color: transparent;
   }
-
-}
-/* hali navbar ohirigacha bitmadi */
-
-  .social-link-buttons a{
+  .social-link-buttons a {
     margin: 6px 0;
   }
-  .translator{
+  .translator {
     display: flex;
     position: absolute;
     left: 200px;
     top: 90px;
     background-color: transparent;
   }
+}
 
-@media (max-width: 768px){
-  .header-main h1{
+@media (max-width: 768px) {
+  .header-main h1 {
     font-size: 55px;
   }
-  .header-main p{
+  .header-main p {
     font-size: 17px;
   }
-  .main-button{
+  .main-button {
     display: flex;
     flex-wrap: wrap;
   }
 }
-
