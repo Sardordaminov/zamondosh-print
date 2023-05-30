@@ -231,8 +231,8 @@ span {
   color: #fff;
 }
 .services-cart div img{
-  width: 140px;
-  height: 130px; 
+  width: 130px;
+  height: 150px; 
 }
 .services-cart div h3{
   font-size: 20px;
@@ -251,8 +251,7 @@ span {
     padding: 20px 35px;
     position: fixed;
     display: flex;
-<<<<<<< HEAD
-=======
+
     justify-content: space-between;
     align-items: flex-start;
     overflow-y: hidden;
@@ -268,7 +267,6 @@ span {
   }
   .fa-bars.none{
     display: none;
->>>>>>> 53d1d1e8e8fe03ff8556f24ceeae4cefdfcc2197
     align-items: center;
     justify-content: space-around;
   }
@@ -299,10 +297,6 @@ span {
     border-right: none;
     border-left: 1px solid #4b4b4b;
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> 53d1d1e8e8fe03ff8556f24ceeae4cefdfcc2197
   .data{
     margin-top: 30px;
   }
@@ -319,10 +313,7 @@ span {
   .hire:hover{
     background: #FF5100;
   }
-<<<<<<< HEAD
 
-=======
->>>>>>> 53d1d1e8e8fe03ff8556f24ceeae4cefdfcc2197
   .social-link-buttons {
     display: flex;
     flex-direction: column;
@@ -331,14 +322,10 @@ span {
     top: 90px;
     background-color: transparent;
   }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 }
 /* hali navbar ohirigacha bitmadi */
-=======
-}
->>>>>>> 53d1d1e8e8fe03ff8556f24ceeae4cefdfcc2197
-=======
+
   .social-link-buttons a{
     margin: 6px 0;
   }
@@ -349,7 +336,7 @@ span {
     top: 90px;
     background-color: transparent;
   }
-}
+
 @media (max-width: 768px){
   .header-main h1{
     font-size: 55px;
@@ -362,4 +349,4 @@ span {
     flex-wrap: wrap;
   }
 }
->>>>>>> 1ac2998d62cb988ecd97954c7acf8b673fb17ca9
+
