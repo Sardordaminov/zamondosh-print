@@ -261,13 +261,12 @@ span {
   padding: 20px 0px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
 }
 .mySwiper {
   display: flex;
   flex-wrap: wrap;
-  width: 60vw;
+  width: 70vw;
   padding-top: 50px;
   padding-bottom: 50px;
 }
