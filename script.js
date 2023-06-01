@@ -16,12 +16,3 @@ opener.addEventListener("click", () => {
         navbar.classList.add("full")
     }
 })
-
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-});
