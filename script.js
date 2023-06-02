@@ -16,3 +16,4 @@ opener.addEventListener("click", () => {
         navbar.classList.add("full")
     }
 })
+

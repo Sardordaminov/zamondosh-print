@@ -255,7 +255,7 @@ span {
   padding: 0 15px 30px;
 }
 
-.slider{
+.slider {
   width: 100vw;
   min-height: 250px;
   padding: 20px 0px;
@@ -379,3 +379,5 @@ span {
     flex-wrap: wrap;
   }
 }
+
+
