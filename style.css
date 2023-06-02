@@ -380,4 +380,11 @@ span {
   }
 }
 
+/* FAQ PAGE  */
+.questions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
+/* FAQ PAGE  */
