@@ -255,6 +255,8 @@ span {
   padding: 0 15px 30px;
 }
 
+/* Slider */
+
 .slider {
   width: 100vw;
   min-height: 250px;
@@ -274,6 +276,66 @@ span {
   width: 224px;
   height: 85px;
   z-index: 10;
+}
+
+/* FAQ PAGE  */
+
+.faq {
+  width: 100%;
+  min-height: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.faq_img{
+  width: 500px;
+  height: 490px;
+  margin: 0px 100px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.faq_textbox{
+  max-width: 500px;
+  margin: 0px 100px;
+}
+.faq_textbox h1{
+  color: #022575;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0 0 30px 0;
+}
+.faq_textbox h3{
+  color: #78ACFF;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15px 0px;
+}
+.faq_textbox_p{
+  font-size: 16px;
+  color: #686e7d;
+  margin: 15px 0px;
+  line-height: 24px;
+}
+.textbox_questions{
+  margin: 15px 0px;
+}
+.textbox_questions p{
+  font-size: 16px;
+  margin: 10px 0px;
+  color: #78ACFF;
+}
+.textbox_questions p i{
+  margin: 0px 10px 0px 0px;
+  font-size: 13px;
+}
+.view-more{
+  margin-top: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #FF5100;
+}
+.view-more i{
+  margin: 0 0 0 5px;
 }
 
 @media (max-width: 1024px) {
@@ -379,12 +441,3 @@ span {
     flex-wrap: wrap;
   }
 }
-
-/* FAQ PAGE  */
-.questions {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-/* FAQ PAGE  */
