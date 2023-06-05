@@ -287,57 +287,57 @@ span {
   align-items: center;
   justify-content: center;
 }
-.faq_img{
+.faq_img {
   width: 500px;
   height: 490px;
   margin: 0px 100px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.faq_textbox{
+.faq_textbox {
   max-width: 500px;
   margin: 0px 100px;
 }
-.faq_textbox h1{
+.faq_textbox h1 {
   color: #022575;
   font-size: 35px;
   font-weight: bold;
   margin: 0 0 30px 0;
 }
-.faq_textbox h3{
-  color: #78ACFF;
+.faq_textbox h3 {
+  color: #78acff;
   font-size: 20px;
   font-weight: bold;
   margin: 15px 0px;
 }
-.faq_textbox_p{
+.faq_textbox_p {
   font-size: 16px;
   color: #686e7d;
   margin: 15px 0px;
   line-height: 24px;
 }
-.textbox_questions{
+.textbox_questions {
   margin: 15px 0px;
 }
-.textbox_questions p{
+.textbox_questions p {
   font-size: 16px;
   margin: 10px 0px;
-  color: #78ACFF;
+  color: #78acff;
 }
-.textbox_questions p i{
+.textbox_questions p i {
   margin: 0px 10px 0px 0px;
   font-size: 13px;
 }
-.view-more{
+.view-more {
   margin-top: 20px;
   background-color: transparent;
   border: none;
   cursor: pointer;
-  color: #FF5100;
+  color: #ff5100;
 }
-.view-more i{
+.view-more i {
   margin: 0 0 0 5px;
 }
-.location{
+.location {
   position: relative;
   width: 100%;
   display: flex;
@@ -345,26 +345,26 @@ span {
   justify-content: center;
   padding: 100px 0px;
 }
-.location img{
+.location img {
   width: 65%;
   height: 65%;
 }
-.location_item{
+.location_item {
   position: absolute;
   top: 290px;
   right: 365px;
 }
-.footer{
+.footer {
   width: 100%;
   min-height: 325px;
   padding: 30px 0;
-  background-color: #3E4051;
+  background-color: #3e4051;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   color: #fff;
 }
-.footer .footer_div{
+.footer .footer_div {
   width: 260px;
   height: 250px;
   display: flex;
@@ -372,19 +372,19 @@ span {
   justify-content: space-around;
   margin: 0 30px;
 }
-.footer_div p{
+.footer_div p {
   font-size: 15px;
   line-height: 28px;
 }
-.white_logo{
+.white_logo {
   width: 240px;
   height: 50px;
 }
-.white_ins{
+.white_ins {
   width: 145px;
-  height: 25px; 
+  height: 25px;
 }
-.instagram_posts{
+.instagram_posts {
   width: 100%;
   height: 180px;
   display: flex;
@@ -392,20 +392,41 @@ span {
   justify-content: space-between;
   align-items: center;
 }
-.instagram_posts div{
+.instagram_posts div {
   width: 80px;
   height: 80px;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
 }
-.fa-location-dot, .fa-envelope, .fa-phone{
+.fa-location-dot,
+.fa-envelope,
+.fa-phone {
   margin: 0 10px 0 0;
 }
-.footer_div.last{
+.footer_div.last {
   width: 260px;
   height: 200px;
 }
-.div_title{
+.div_title {
   font-size: 20px;
+}
+.copy-right-sec {
+  padding: 1rem;
+  background: linear-gradient(
+    90deg,
+    #004b84 5.99%,
+    #0088cb 22.07%,
+    #009e9b 47.14%,
+    #009b4a 71.82%,
+    rgba(206, 191, 11, 0.75) 96.64%
+  );
+  color: #fff;
+  width: 1500px;
+
+  text-align: center;
+}
+.copy-right-sec a {
+  color: #fcd462;
+  font-weight: 500;
 }
 @media (max-width: 1024px) {
   nav,
