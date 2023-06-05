@@ -337,6 +337,23 @@ span {
 .view-more i{
   margin: 0 0 0 5px;
 }
+.location{
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px;
+}
+.location img{
+  width: 65%;
+  height: 65%;
+}
+.location_item{
+  position: absolute;
+  top: 290px;
+  right: 365px;
+}
 
 @media (max-width: 1024px) {
   nav,
