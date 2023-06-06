@@ -351,9 +351,11 @@ span {
 }
 .location_item {
   position: absolute;
-  top: 290px;
+  top: 385px;
   right: 365px;
+  cursor: pointer;
 }
+
 .footer {
   width: 100%;
   min-height: 325px;
@@ -409,6 +411,9 @@ span {
 .div_title {
   font-size: 20px;
 }
+#copy-right{
+  width: 100%;
+}
 .copy-right-sec {
   padding: 1rem;
   background: linear-gradient(
@@ -419,14 +424,8 @@ span {
     #009b4a 71.82%,
     rgba(206, 191, 11, 0.75) 96.64%
   );
-  color: #fff;
-  width: 1500px;
-
+  color: #fff;  
   text-align: center;
-}
-.copy-right-sec a {
-  color: #fcd462;
-  font-weight: 500;
 }
 @media (max-width: 1024px) {
   nav,
