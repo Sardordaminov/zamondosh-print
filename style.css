@@ -333,6 +333,10 @@ span {
   border: none;
   cursor: pointer;
   color: #ff5100;
+  transition: all 0.3s ease;
+}
+.view-more:hover{
+  opacity: 60%;
 }
 .view-more i {
   margin: 0 0 0 5px;
@@ -411,7 +415,7 @@ span {
 .div_title {
   font-size: 20px;
 }
-#copy-right{
+#copy-right {
   width: 100%;
 }
 .copy-right-sec {
@@ -424,7 +428,7 @@ span {
     #009b4a 71.82%,
     rgba(206, 191, 11, 0.75) 96.64%
   );
-  color: #fff;  
+  color: #fff;
   text-align: center;
 }
 @media (max-width: 1024px) {
