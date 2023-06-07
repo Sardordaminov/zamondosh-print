@@ -6,7 +6,7 @@
   list-style: none;
   font-family: "DM Sans", sans-serif;
 }
-body {
+html, body{
   width: 100vw;
   min-height: auto;
   overflow-x: hidden;
@@ -22,7 +22,6 @@ header {
 }
 nav {
   position: fixed;
-  top: 0;
   width: 100%;
   min-height: 90px;
   padding: 20px;
@@ -34,6 +33,7 @@ nav {
   z-index: 1000;
 }
 .nav.active {
+  height: 90px;
   background-color: #ffffffcc;
   backdrop-filter: blur(10px);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
@@ -148,19 +148,17 @@ nav ul li:hover,
 
 .about-us {
   width: 100%;
+  min-height: 70vh;
   padding: 90px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .pic {
-  height: auto;
-  width: 302px;
-}
-.about {
-  width: 1130px;
-  max-width: 85%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  min-height: 400px;
+  width: 420px;
+  background-color: #d9d9d9;
 }
 .text {
   width: 540px;
@@ -168,6 +166,7 @@ nav ul li:hover,
 .text h2 {
   font-family: "Poppins", sans-serif;
   font-size: 60px;
+  color: #022575;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -175,9 +174,6 @@ nav ul li:hover,
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 20px;
-}
-span {
-  color: #4070f4;
 }
 .text p {
   font-size: 18px;
@@ -199,7 +195,6 @@ span {
 }
 .hire:hover {
   background: #000;
-  border: 1px solid #4070f4;
 }
 .our-services {
   width: 100%;
@@ -211,6 +206,7 @@ span {
   padding: 0 10px;
 }
 .services-cart {
+  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -276,6 +272,12 @@ span {
   width: 224px;
   height: 85px;
   z-index: 10;
+  filter: grayscale(1);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.swiper-slide img:hover {
+  filter: grayscale(0);
 }
 
 /* FAQ PAGE  */
@@ -283,7 +285,9 @@ span {
 .faq {
   width: 100%;
   min-height: 40vw;
+  padding: 0 50px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -335,7 +339,7 @@ span {
   color: #ff5100;
   transition: all 0.3s ease;
 }
-.view-more:hover{
+.view-more:hover {
   opacity: 60%;
 }
 .view-more i {
@@ -355,8 +359,8 @@ span {
 }
 .location_item {
   position: absolute;
-  top: 385px;
-  right: 365px;
+  top: 39%;
+  right: 19%;
   cursor: pointer;
 }
 
@@ -520,6 +524,67 @@ span {
     top: 90px;
     background-color: transparent;
   }
+  .services-cart div {
+    width: 300px;
+    height: 280px;
+  }
+  .pic {
+    min-height: 300px;
+    width: 320px;
+    background-color: #d9d9d9;
+  }
+  .text h2 {
+    font-size: 60px;
+  }
+  .text p {
+    font-size: 16px;
+  }
+  .slider {
+    width: 100vw;
+    min-height: 250px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mySwiper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .swiper-slide img {
+    width: 184px;
+    height: 65px;
+    z-index: 10;
+  }
+  .faq {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .faq .faq_img {
+    width: 400px;
+    height: 350px;
+    margin: 0 0 30px 0;
+  }
+  .faq_textbox {
+    margin: 0;
+  }
+  .location_item {
+    top: 37%;
+    right: 8%;
+  }
+  .footer {
+    justify-content: space-evenly;
+  }
+  .footer_div:nth-child(1),
+  .footer_div:nth-child(4) {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -532,5 +597,90 @@ span {
   .main-button {
     display: flex;
     flex-wrap: wrap;
+  }
+  .about-us {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-us img {
+    margin-bottom: 30px;
+  }
+  .about-us .text {
+    width: 400px;
+  }
+  .about-us .text h2 {
+    font-size: 45px;
+  }
+  .about-us .text p {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .location_item {
+    right: 6%;
+  }
+}
+@media (max-width: 430px) {
+  .logo{
+    width: 150px;
+    height: 35px;
+  }
+  .header-main h1 {
+    font-size: 45px;
+  }
+  .header-main p {
+    font-size: 15px;
+  }
+  .about-us .text{
+    width: 350px;
+  }
+  .our-services{
+    padding: 0;
+  }
+  .our-services div{
+    margin: 15px 0px;
+  }
+  .mySwiper {
+    width: 100%;
+  }
+  .swiper-slide img {
+    width: 124px;
+    height: 35px;
+    z-index: 10;
+  }
+  .faq .faq_img {
+    width: 300px;
+    height: 270px;
+  }
+  .faq_textbox {
+    width: 350px;
+  }
+  .faq_textbox h1 {
+    font-size: 25px;
+    margin: 0 0 20px;
+  }
+  .faq_textbox h3 {
+    font-size: 17px;
+  }
+  .faq_textbox_p {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .textbox_questions {
+    text-align: start;
+  }
+  .textbox_questions p {
+    font-size: 15px;
+  }
+  .location_item img{
+    width: 30%;
+    height: 30%;
+  }
+  .location_item {
+    width: 150px;
+    top: 40%;
+    right: -3%;
+  }
+  .copy-right-sec{
+    font-size: 14px;
   }
 }
