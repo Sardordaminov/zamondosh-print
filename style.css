@@ -6,7 +6,8 @@
   list-style: none;
   font-family: "DM Sans", sans-serif;
 }
-html, body{
+html,
+body {
   width: 100vw;
   min-height: auto;
   overflow-x: hidden;
@@ -116,7 +117,7 @@ nav ul li:hover,
   justify-content: center;
   background-color: transparent;
 }
-.bg-video{
+.bg-video {
   position: fixed;
   left: 0;
   width: 100vw;
@@ -163,6 +164,7 @@ nav ul li:hover,
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
+  background-color: #fff;
 }
 .pic {
   min-height: 400px;
@@ -178,11 +180,6 @@ nav ul li:hover,
   color: #022575;
   font-weight: 600;
   margin-bottom: 10px;
-}
-.text h5 {
-  font-size: 22px;
-  font-weight: 500;
-  margin-bottom: 20px;
 }
 .text p {
   font-size: 18px;
@@ -205,7 +202,9 @@ nav ul li:hover,
 .hire:hover {
   background: #000;
 }
+/* Our Services */
 .our-services {
+  background-color: #fff;
   width: 100%;
   min-height: 80vh;
   display: flex;
@@ -269,6 +268,7 @@ nav ul li:hover,
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #fff;
 }
 .mySwiper {
   display: flex;
@@ -299,6 +299,7 @@ nav ul li:hover,
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  background-color: #fff;
 }
 .faq_img {
   width: 500px;
@@ -354,6 +355,7 @@ nav ul li:hover,
 .view-more i {
   margin: 0 0 0 5px;
 }
+/* Location */
 .location {
   position: relative;
   width: 100%;
@@ -361,6 +363,7 @@ nav ul li:hover,
   align-items: center;
   justify-content: center;
   padding: 100px 0px;
+  background-color: #fff;
 }
 .location img {
   width: 65%;
@@ -372,6 +375,7 @@ nav ul li:hover,
   right: 19%;
   cursor: pointer;
 }
+/* Footer */
 
 .footer {
   width: 100%;
@@ -382,6 +386,7 @@ nav ul li:hover,
   flex-wrap: wrap;
   justify-content: center;
   color: #fff;
+  background-color: #3e4051;
 }
 .footer .footer_div {
   width: 260px;
@@ -629,7 +634,7 @@ nav ul li:hover,
   }
 }
 @media (max-width: 430px) {
-  .logo{
+  .logo {
     width: 150px;
     height: 35px;
   }
@@ -639,13 +644,13 @@ nav ul li:hover,
   .header-main p {
     font-size: 15px;
   }
-  .about-us .text{
+  .about-us .text {
     width: 350px;
   }
-  .our-services{
+  .our-services {
     padding: 0;
   }
-  .our-services div{
+  .our-services div {
     margin: 15px 0px;
   }
   .mySwiper {
@@ -680,7 +685,7 @@ nav ul li:hover,
   .textbox_questions p {
     font-size: 15px;
   }
-  .location_item img{
+  .location_item img {
     width: 30%;
     height: 30%;
   }
@@ -689,7 +694,7 @@ nav ul li:hover,
     top: 40%;
     right: -3%;
   }
-  .copy-right-sec{
+  .copy-right-sec {
     font-size: 14px;
   }
 }
