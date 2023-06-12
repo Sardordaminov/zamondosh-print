@@ -116,14 +116,15 @@ nav ul li:hover,
   align-items: center;
   justify-content: center;
   background-color: transparent;
+  background-color: #3e4051;
 }
-.bg-video {
+/* .bg-video {
   position: fixed;
   left: 0;
   width: 100vw;
   min-height: 100vh;
   z-index: -10;
-}
+} */
 
 .header-main h1 {
   font-size: 95px;
