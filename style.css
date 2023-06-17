@@ -5,6 +5,7 @@
   box-sizing: border-box;
   list-style: none;
   font-family: "DM Sans", sans-serif;
+  text-decoration: none;
 }
 html,
 body {
@@ -129,12 +130,14 @@ nav ul li:hover,
   font-size: 95px;
   margin: 12px;
   color: #fff;
+  animation: header 1.5s;
 }
 .header-main p {
   font-size: 20px;
   color: #fff;
   text-align: center;
   margin-bottom: 12px;
+  animation: header 1.5s;
 }
 .main-button .btn {
   padding: 7px 23px;
@@ -145,6 +148,7 @@ nav ul li:hover,
   margin: 10px;
   cursor: pointer;
   transition: opacity 0.2s ease;
+  animation: header 1.5s;
 }
 .main-button .btn:hover {
   opacity: 60%;
@@ -220,7 +224,7 @@ nav ul li:hover,
   justify-content: center;
   max-width: 80%;
 }
-.services-cart div {
+.services-cart a {
   width: 400px;
   height: 280px;
   display: flex;
@@ -233,27 +237,28 @@ nav ul li:hover,
   background-color: #3e4051;
   color: #fff;
   position: relative;
+  cursor: pointer;
 }
-.services-cart div img {
+.services-cart a img {
   width: 130px;
   height: 150px;
   object-fit: contain;
 }
-.services-cart div:nth-child(5) img {
+.services-cart a:nth-child(5) img {
   width: 70%;
   height: 80%;
   object-fit: cover;
   position: absolute;
 }
-.services-cart div h3 {
+.services-cart a h3 {
   font-size: 20px;
   z-index: 10;
   padding: 15px 0px;
 }
-.services-cart div:nth-child(5) h3 {
+.services-cart a:nth-child(5) h3 {
   padding-top: 150px;
 }
-.services-cart div p {
+.services-cart a p {
   font-size: 16px;
   z-index: 10;
   padding: 0 15px 30px;
@@ -697,4 +702,43 @@ nav ul li:hover,
   .copy-right-sec {
     font-size: 14px;
   }
+}
+@keyframes header {
+  from {
+    margin-right: 50px;
+    opacity: 0%;
+  }
+  to {
+    margin-right: 0px;
+    opacity: 100%;
+  }
+}
+/* partners */
+
+.header{
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
