@@ -12,6 +12,31 @@ body {
   width: 100vw;
   min-height: auto;
   overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+/* ToTop button */
+
+.to-top {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: -70px;
+  bottom: 20px;
+  background-color: #3e4051;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  z-index: 10;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  transition: all 0.2s ease;
+}
+.to-top.visible {
+  right: 20px;
 }
 
 /* header */
@@ -262,6 +287,23 @@ nav ul li:hover,
   font-size: 16px;
   z-index: 10;
   padding: 0 15px 30px;
+}
+.products{
+  width: 100%;
+  min-height: 100vh;
+   
+}
+.show-products {
+  width: 150px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  margin: 20px 0px;
+  background-color: rgba(149, 157, 165, 0.2);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.show-products i {
+  margin-left: 10px;
 }
 
 /* Slider */
@@ -713,4 +755,3 @@ nav ul li:hover,
     opacity: 100%;
   }
 }
-
