@@ -1,9 +1,9 @@
 let navbar = document.querySelector('.nav'),
- opener = document.querySelector(".fa-bars"),
- toTop = document.querySelector(".to-top"),
- showProducts = false,
- showProducts_btn = document.querySelector('.show-products'),
- products = document.querySelector('.products')
+    opener = document.querySelector(".fa-bars"),
+    toTop = document.querySelector(".to-top"),
+    showProducts = false,
+    showProducts_btn = document.querySelector('.show-products'),
+    products = document.querySelector('.products')
 
 
 window.addEventListener('scroll', () => {
@@ -27,4 +27,12 @@ opener.addEventListener("click", () => {
 toTop.addEventListener("click", () => {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
+})
+
+showProducts_btn.addEventListener("click", () => {
+    if (products.classList.contains("full")) {
+        products.classList.remove('full')
+    } else {
+        products.classList.add("full")
+    }
 })
