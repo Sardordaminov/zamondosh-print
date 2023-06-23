@@ -241,6 +241,9 @@ nav ul li:hover,
   justify-content: center;
   align-items: center;
   padding: 0 10px;
+  overflow-y: hidden;
+}
+.our-services.full {
 }
 .services-cart {
   margin-top: 20px;
@@ -290,17 +293,15 @@ nav ul li:hover,
 }
 .products {
   background-color: #fff;
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   padding: 20px 0px;
   display: none;
   align-items: center;
   flex-direction: column;
-  z-index: 1;
-  transition: all 0.5s ease;
-  overflow-y: hidden;
+  overflow: hidden;
 }
-.products.full{
+.products.full {
   display: flex;
 }
 .products h1 {
@@ -338,6 +339,10 @@ nav ul li:hover,
 }
 .show-products i {
   margin-left: 10px;
+  transition: all 0.2s ease;
+}
+.show-products.rotate i {
+  transform: rotate(180deg);
 }
 
 /* Slider */
@@ -510,6 +515,9 @@ nav ul li:hover,
 .footer_div.last {
   width: 260px;
   height: 200px;
+}
+.footer_div_last_social_btns{
+  margin: 0px 15px 0px 0px;
 }
 .div_title {
   font-size: 20px;

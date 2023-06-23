@@ -32,7 +32,9 @@ toTop.addEventListener("click", () => {
 showProducts_btn.addEventListener("click", () => {
     if (products.classList.contains("full")) {
         products.classList.remove('full')
+        showProducts_btn.classList.remove('rotate')
     } else {
         products.classList.add("full")
+        showProducts_btn.classList.add('rotate')
     }
 })
