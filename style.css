@@ -220,7 +220,7 @@ nav ul li:hover,
 }
 .hire {
   font-size: 18px;
-  background: #4070f4;
+  background: gray;
   color: #fff;
   text-decoration: none;
   border: none;
@@ -242,8 +242,6 @@ nav ul li:hover,
   align-items: center;
   padding: 0 10px;
   overflow-y: hidden;
-}
-.our-services.full {
 }
 .services-cart {
   margin-top: 20px;
@@ -329,6 +327,9 @@ nav ul li:hover,
   height: 280px;
 }
 .show-products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 150px;
   height: 40px;
   border: none;
