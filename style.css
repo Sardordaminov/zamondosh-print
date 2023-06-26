@@ -515,6 +515,9 @@ nav ul li:hover,
 .fa-phone {
   margin: 0 10px 0 0;
 }
+.footer_div.b{
+  color: #fff;
+}
 .footer_div.last {
   width: 260px;
   height: 200px;
