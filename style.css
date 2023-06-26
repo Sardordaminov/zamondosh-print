@@ -429,6 +429,8 @@ nav ul li:hover,
   font-size: 13px;
 }
 .view-more {
+  display: flex;
+  align-items: center;
   margin-top: 20px;
   background-color: transparent;
   border: none;
@@ -440,7 +442,7 @@ nav ul li:hover,
   opacity: 60%;
 }
 .view-more i {
-  margin: 0 0 0 5px;
+  margin-left: 10px;
 }
 /* Location */
 .location {
@@ -517,17 +519,18 @@ nav ul li:hover,
   width: 260px;
   height: 200px;
 }
-.footer_div_last_social_btns{
+.footer_div_last_social_btns {
   margin: 0px 15px 0px 0px;
 }
 .div_title {
   font-size: 20px;
 }
-#copy-right {
-  width: 100%;
-}
 .copy-right-sec {
-  padding: 1rem;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: linear-gradient(
     90deg,
     #004b84 5.99%,
@@ -537,7 +540,9 @@ nav ul li:hover,
     rgba(206, 191, 11, 0.75) 96.64%
   );
   color: #fff;
-  text-align: center;
+}
+.copy-right-sec p{
+  margin-left: 10px;
 }
 @media (max-width: 1024px) {
   nav,
