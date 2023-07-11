@@ -1,12 +1,12 @@
 let langs = document.querySelector(".translator"),
     link = document.querySelectorAll(".link"),
-    li1 = document.querySelector(".child1")
-li2 = document.querySelector(".child2")
-li3 = document.querySelector(".child3")
-li4 = document.querySelector(".child4")
-li5 = document.querySelector(".child5")
-li6 = document.querySelector(".child6")
-title = document.querySelector(".header-main h1"),
+    li1 = document.querySelector(".child1"),
+    li2 = document.querySelector(".child2"),
+    li3 = document.querySelector(".child3"),
+    li4 = document.querySelector(".child4"),
+    li5 = document.querySelector(".child5"),
+    li6 = document.querySelector(".child6"),
+    title = document.querySelector(".header-main h1"),
     descr = document.querySelector(".header-main p"),
     header_btn1 = document.querySelector(".btn.gray"),
     header_btn2 = document.querySelector(".btn.second")
@@ -28,7 +28,6 @@ about_us_title = document.querySelector(".text h2"),
     services_cart_descr6 = document.querySelector(".services_cart_descr6"),
     products_title = document.querySelector(".products-title"),
     show_products = document.querySelector(".show-products p"),
-
     slider_title = document.querySelector(".slider h1"),
     faq_title = document.querySelector(".faq_textbox h1"),
     faq_descr = document.querySelector(".faq_textbox h3"),
