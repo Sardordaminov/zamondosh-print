@@ -391,7 +391,7 @@ nav ul li:hover,
 .faq {
   width: 100%;
   min-height: 40vw;
-  padding: 0 50px;
+  padding: 10px 50px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -458,22 +458,39 @@ nav ul li:hover,
 .location {
   position: relative;
   width: 100%;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 100px 0px;
+  padding: 50px 0px;
   background-color: #fff;
 }
-.location img {
-  width: 65%;
-  height: 65%;
+.location .mapdiv {
+  width: 70%;
+  margin: auto;
 }
-.location_item {
+.mapdiv .map path{
+  fill: #EBECEC;
+  stroke: #FEFEFE;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+#UZ-NG{
+  fill: #787C9E;
+}
+.mapdiv .map path:hover{
+  fill: #787C9E;
+}
+.map_item{
+  position: absolute;
+  top: 30%;
+}
+/* .location_item {
   position: absolute;
   top: 39%;
   right: 19%;
   cursor: pointer;
-}
+} */
 /* Footer */
 
 .footer {
