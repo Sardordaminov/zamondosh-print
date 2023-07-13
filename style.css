@@ -148,8 +148,7 @@ nav ul li:hover,
 }
 .bg-video {
   position: fixed;
-  left: 0;
-  min-width: 100vw;
+  min-width: 100%;
   min-height: 100vh;
   z-index: -10;
 }
@@ -175,13 +174,18 @@ nav ul li:hover,
   font-size: 14px;
   margin: 10px;
   cursor: pointer;
-  transition: opacity 0.2s ease;
+  transition: all 0.2s ease;
   animation: header 1.5s;
 }
-.main-button .btn:hover {
-  opacity: 60%;
-}
 .main-button .btn.gray {
+  background-color: #999;
+  color: #fff;
+}
+.main-button .btn.gray:hover{
+  background-color: transparent;
+  color: #999;
+}
+.main-button .btn.second:hover{
   background-color: #999;
   color: #fff;
 }
@@ -478,19 +482,21 @@ nav ul li:hover,
 #UZ-NG{
   fill: #787C9E;
 }
+.mapdiv_logo{
+  position: absolute;
+  top: 33%;
+  right: 17%;
+  cursor: pointer;
+}
 .mapdiv .map path:hover{
   fill: #787C9E;
+  transform: scale(1.005);
 }
 .map_item{
   position: absolute;
-  top: 30%;
-}
-/* .location_item {
-  position: absolute;
   top: 39%;
-  right: 19%;
-  cursor: pointer;
-} */
+  right: 18%;
+}
 /* Footer */
 
 .footer {
@@ -695,9 +701,16 @@ nav ul li:hover,
   .faq_textbox {
     margin: 0;
   }
-  .location_item {
+  .mapdiv_logo{
+    width: 110px;
+    height: 23px;
     top: 37%;
-    right: 8%;
+  }
+  .map_item{
+    width: 100px;
+    height: 100px;
+    top: 41%;
+    right: 18%;
   }
   .footer {
     justify-content: space-evenly;
@@ -736,8 +749,24 @@ nav ul li:hover,
     font-size: 14px;
     line-height: normal;
   }
-  .location_item {
-    right: 6%;
+  .mapdiv_logo{
+    top: 39%;
+    right: 7%;
+  }
+  .map_item{
+    position: absolute;
+    top: 42.5%;
+    right: 7%;
+  }
+  .location .mapdiv {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .map{
+    width: 95vw;
+    height: 80vh;
   }
 }
 @media (max-width: 430px) {
@@ -785,14 +814,14 @@ nav ul li:hover,
   .textbox_questions p {
     font-size: 15px;
   }
-  .location_item img {
-    width: 30%;
-    height: 30%;
+  .mapdiv_logo{
+    right: 5%;
   }
-  .location_item {
-    width: 150px;
-    top: 40%;
-    right: -3%;
+  .map_item{
+    width: 80px;
+    height: 80px;
+    top: 42.5%;
+    right: 6.5%;
   }
   .copy-right-sec {
     font-size: 14px;
