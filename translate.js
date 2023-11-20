@@ -9,8 +9,8 @@ let langs = document.querySelector(".translator"),
     title = document.querySelector(".header-main h1"),
     descr = document.querySelector(".header-main p"),
     header_btn1 = document.querySelector(".btn.gray"),
-    header_btn2 = document.querySelector(".btn.second")
-about_us_title = document.querySelector(".text h2"),
+    header_btn2 = document.querySelector(".btn.second"),
+    about_us_title = document.querySelector(".text h2"),
     about_us_descr = document.querySelector(".text p"),
     about_us_btn = document.querySelector(".hire"),
     our_services_title = document.querySelector(".our-services-title"),
@@ -41,7 +41,7 @@ about_us_title = document.querySelector(".text h2"),
 link.forEach(el => {
     el.addEventListener("click", () => {
 
-        let attr = el.getAttribute("language")
+        let attr = el.getAttribute("language");
 
         li1.textContent = data[attr].li1
         li2.textContent = data[attr].li2

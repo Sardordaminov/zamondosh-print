@@ -38,8 +38,8 @@ showProducts_btn.addEventListener("click", () => {
         showProducts_btn.classList.add('rotate')
     }
 })
-let link = document.getElementById("UZ-NG");
+let link_inst = document.getElementById("UZ-NG");
  
-link.addEventListener('click', () => {
+link_inst.addEventListener('click', () => {
     window.location.href = "https://www.instagram.com/"
 })
