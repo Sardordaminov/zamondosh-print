@@ -12,11 +12,8 @@
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css"
     />
   </head>
 
@@ -169,37 +166,23 @@
     </div>
     <div class="slider">
       <h1>Our Partners</h1>
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="img/our_partners/1.svg" alt="" />
+      <section class="customer-logos glide">
+        <div class="glide__track" data-glide-el="track">
+          <div class="slide glide__slides">
+            <img src="img/our_partners/1.svg" alt="Partner 1" />
+            <img src="img/our_partners/2.svg" alt="Partner 2" />
+            <img src="img/our_partners/3.svg" alt="Partner 3" />
+            <img src="img/our_partners/4.svg" alt="Partner 4" />
+            <img src="img/our_partners/5.svg" alt="Partner 5" />
+            <img src="img/our_partners/6.svg" alt="Partner 6" />
+            <img src="img/our_partners/7.svg" alt="Partner 7" />
+            <img src="img/our_partners/8.svg" alt="Partner 8" />
           </div>
-          <div class="swiper-slide">
-            <img src="img/our_partners/2.svg" alt="" />
-          </div>
-          <div class="swiper-slide">
-            <img src="img/our_partners/3.svg" alt="" />
-          </div>
-          <div class="swiper-slide">
-            <img src="img/our_partners/4.svg" alt="" />
-          </div>
-          <div class="swiper-slide">
-            <img src="img/our_partners/5.svg" alt="" />
-          </div>
-          <div class="swiper-slide">
-            <img src="img/our_partners/6.svg" alt="" />
-          </div>
-          <div class="swiper-slide">
-            <img src="img/our_partners/7.svg" alt="" />
-          </div>
-          <div class="swiper-slide">
-            <img src="img/our_partners/8.svg" alt="" />
-          </div>
+
+
+          <!-- Add more slides as needed -->
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-      </div>
+      </section>
     </div>
     <div class="faq">
       <img class="faq_img" src="img/faq_img.svg" alt="faq-img" />
@@ -410,22 +393,6 @@
     </div>
     <script src="./script.js"></script>
     <script src="./translate.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
   </body>
 </html>

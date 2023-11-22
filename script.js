@@ -39,7 +39,25 @@ showProducts_btn.addEventListener("click", () => {
     }
 })
 let link_inst = document.getElementById("UZ-NG");
- 
+
 link_inst.addEventListener('click', () => {
     window.location.href = "https://www.instagram.com/"
 })
+document.addEventListener("DOMContentLoaded", function () {
+    var glide = new Glide(".glide", {
+        type: "carousel",
+        startAt: 0,
+        perView: 4,
+        autoplay: 2000,
+        breakpoints: {
+            768: {
+                perView: 3,
+            },
+            520: {
+                perView: 2,
+            },
+        },
+    });
+
+    glide.mount();
+});

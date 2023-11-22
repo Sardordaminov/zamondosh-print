@@ -38,7 +38,7 @@ body {
 .to-top.visible {
   right: 20px;
 }
-.to-top:hover{
+.to-top:hover {
   opacity: 60%;
 }
 
@@ -147,7 +147,7 @@ nav ul li:hover,
   background-color: transparent;
 }
 .bg-video {
-  position: fixed;
+  position: absolute;
   min-width: 100%;
   min-height: 100vh;
   z-index: -10;
@@ -181,11 +181,11 @@ nav ul li:hover,
   background-color: #999;
   color: #fff;
 }
-.main-button .btn.gray:hover{
+.main-button .btn.gray:hover {
   background-color: transparent;
   color: #999;
 }
-.main-button .btn.second:hover{
+.main-button .btn.second:hover {
   background-color: #999;
   color: #fff;
 }
@@ -354,28 +354,53 @@ nav ul li:hover,
 }
 
 /* Slider */
-.slider {
+/* .slider {
   width: 100vw;
-  min-height: 300px;
-  padding: 20px 100px;
+  min-height: 200px;
+  padding: 20px 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   background-color: #fff;
 }
-.swiper{
-  width: 100%;
-  height: 100%;
+.slides{
   display: flex;
   align-items: center;
-  justify-content: center;
-  overflow: auto;
 }
-.swiper-slide{
-  min-width: 200px;
-  margin: 0 20px;
+.slide{
+  margin: 0px 20px;
 }
+.slide img{
+  width: 150px;
+  height:120px;
+} */
+
+.slider {
+  width: 100vw;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.slider section{
+  width: 90%;
+}
+.customer-logos {
+  margin-top: 20px;
+  width: 80vw;
+}
+
+.slide img {
+  width: 100px;
+  height: 70px;
+  border: 1px solid #ddd;
+  padding: 5px; /* Add some padding for style */
+  border-radius: 5px; /* Add border-radius for rounded corners */
+}
+
 /* FAQ PAGE  */
 
 .faq {
@@ -459,26 +484,26 @@ nav ul li:hover,
   width: 70%;
   margin: auto;
 }
-.mapdiv .map path{
-  fill: #EBECEC;
-  stroke: #FEFEFE;
+.mapdiv .map path {
+  fill: #ebecec;
+  stroke: #fefefe;
   transition: all 0.2s ease;
   cursor: pointer;
 }
-#UZ-NG{
-  fill: #787C9E;
+#UZ-NG {
+  fill: #787c9e;
 }
-.mapdiv_logo{
+.mapdiv_logo {
   position: absolute;
   top: 33%;
   right: 17%;
   cursor: pointer;
 }
-.mapdiv .map path:hover{
-  fill: #787C9E;
+.mapdiv .map path:hover {
+  fill: #787c9e;
   transform: scale(1.005);
 }
-.map_item{
+.map_item {
   position: absolute;
   top: 39%;
   right: 18%;
@@ -535,7 +560,7 @@ nav ul li:hover,
 .fa-phone {
   margin: 0 10px 0 0;
 }
-.footer_div.b{
+.footer_div.b {
   color: #fff;
 }
 .footer_div.last {
@@ -564,7 +589,7 @@ nav ul li:hover,
   );
   color: #fff;
 }
-.copy-right-sec p{
+.copy-right-sec p {
   margin-left: 10px;
 }
 @media (max-width: 1024px) {
@@ -671,7 +696,7 @@ nav ul li:hover,
   .text p {
     font-size: 16px;
   }
-  
+
   .faq {
     padding: 50px 0;
     display: flex;
@@ -687,12 +712,12 @@ nav ul li:hover,
   .faq_textbox {
     margin: 0;
   }
-  .mapdiv_logo{
+  .mapdiv_logo {
     width: 110px;
     height: 23px;
     top: 37%;
   }
-  .map_item{
+  .map_item {
     width: 100px;
     height: 100px;
     top: 41%;
@@ -735,11 +760,11 @@ nav ul li:hover,
     font-size: 14px;
     line-height: normal;
   }
-  .mapdiv_logo{
+  .mapdiv_logo {
     top: 39%;
     right: 7%;
   }
-  .map_item{
+  .map_item {
     position: absolute;
     top: 42.5%;
     right: 7%;
@@ -750,7 +775,7 @@ nav ul li:hover,
     display: flex;
     justify-content: center;
   }
-  .map{
+  .map {
     width: 95vw;
     height: 80vh;
   }
@@ -775,7 +800,7 @@ nav ul li:hover,
   .our-services div {
     margin: 15px 0px;
   }
-  
+
   .faq .faq_img {
     width: 300px;
     height: 270px;
@@ -800,10 +825,10 @@ nav ul li:hover,
   .textbox_questions p {
     font-size: 15px;
   }
-  .mapdiv_logo{
+  .mapdiv_logo {
     right: 5%;
   }
-  .map_item{
+  .map_item {
     width: 80px;
     height: 80px;
     top: 42.5%;
