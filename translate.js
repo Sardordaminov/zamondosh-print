@@ -40,7 +40,12 @@ let langs = document.querySelector(".translator"),
 
 link.forEach(el => {
     el.addEventListener("click", () => {
+        link.forEach(button => {
+            button.classList.remove('active');
+        });
 
+        // Add "active" class to the clicked button
+        el.classList.add('active');
         let attr = el.getAttribute("language");
 
         li1.textContent = data[attr].li1
