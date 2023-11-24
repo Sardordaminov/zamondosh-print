@@ -556,7 +556,15 @@ nav ul li:hover,
 .instagram_posts div {
   width: 80px;
   height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #d9d9d9;
+  overflow: hidden;
+}
+.instagram_posts div img{
+  width: 100px;
+  height: 100%;
 }
 .fa-location-dot,
 .fa-envelope,
@@ -781,6 +789,11 @@ nav ul li:hover,
   .map {
     width: 95vw;
     height: 80vh;
+  }
+}
+@media (max-width: 600px){
+  .location{
+    display: none;
   }
 }
 @media (max-width: 430px) {
