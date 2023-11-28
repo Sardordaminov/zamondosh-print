@@ -399,7 +399,6 @@ nav ul li:hover,
 .slide img {
   width: 100px;
   height: 70px;
-  border: 1px solid #ddd;
   padding: 5px; /* Add some padding for style */
   border-radius: 5px; /* Add border-radius for rounded corners */
 }
@@ -532,6 +531,15 @@ nav ul li:hover,
   justify-content: space-around;
   margin: 0 30px;
 }
+.footer_div.a{
+  height: 200px;
+}
+.footer_div.b div i{
+  font-size: 20px;
+}
+.footer_div_b_phone{
+  display: flex;
+}
 .footer_div p {
   font-size: 15px;
   line-height: 28px;
@@ -576,7 +584,7 @@ nav ul li:hover,
 }
 .footer_div.last {
   width: 260px;
-  height: 200px;
+  height: 150px;
 }
 .footer_div_last_social_btns {
   margin: 0px 15px 0px 0px;
